@@ -131,10 +131,10 @@ public class CalculadoraSimple extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_sumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_sumaActionPerformed
-        double x = Double.parseDouble(txt_valor1.getText());
-        double y = Double.parseDouble(txt_valor2.getText());
-        double z=x+y;
-        txt_resultado.setText(""+z);
+        double a = Double.parseDouble(txt_valor1.getText());
+        double b = Double.parseDouble(txt_valor2.getText());
+        double c=a+b;
+        txt_resultado.setText(""+c);
     }//GEN-LAST:event_btn_sumaActionPerformed
 
     private void btn_restaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_restaActionPerformed
