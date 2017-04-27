@@ -146,7 +146,16 @@ public class CalculadoraSimple extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_multiplicacionActionPerformed
 
     private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
-        // TODO add your handling code here:
+        double x = Double.parseDouble(txt_valor1.getText());
+        double y = Double.parseDouble(txt_valor2.getText());
+        try {
+            double z=x/y;
+            txt_resultado.setText(""+z);
+        } catch (Exception e) {
+            txt_resultado.setText("Error");
+        }
+            
+        
     }//GEN-LAST:event_btn_divisionActionPerformed
 
     /**
