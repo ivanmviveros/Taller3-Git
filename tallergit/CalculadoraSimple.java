@@ -142,7 +142,10 @@ public class CalculadoraSimple extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_restaActionPerformed
 
     private void btn_multiplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplicacionActionPerformed
-        // TODO add your handling code here:
+        double x = Double.parseDouble(txt_valor1.getText());
+        double y = Double.parseDouble(txt_valor2.getText());
+        double z=x*y;
+        txt_resultado.setText(""+z);
     }//GEN-LAST:event_btn_multiplicacionActionPerformed
 
     private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
